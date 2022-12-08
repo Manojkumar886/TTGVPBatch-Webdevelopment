@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors in Cascading style sheet</title>
+    <style>
+        h1{
+            color: seagreen;
+        }
+        #tablebody
+        {
+            border-style:dotted double groove solid  ;
+            border-color: aqua brown chartreuse plum;
+        }
+        .unorder
+        {
+            text-transform: capitalize;
+            color: darkorange;
+        }
+        #single
+        {
+            text-align: right;
+            color: peachpuff;
+        }
+        *
+        {
+            background-color: pink;
+            /* background-image: url(../Images/Danger\ Lion\ -\ Lion\ -\ Digital\ Art.jpg); */
+        }
+        body{
+            text-align: center;
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <h1>Student Details Form</h1>
+    <h2>Form1</h2>
+    <table id="tablebody">
+        <thead>
+            <th>Student Name</th>
+            <th>Student Place</th>
+        </thead>
+        <tbody >
+            <tr>
+                <td>Pradeep</td>
+                <td>Salem Town</td>
+            </tr>
+            
+            <tr>
+                <td>Manojkumar</td>
+                <td>Namakkal</td>
+            </tr>
+            
+            <tr>
+                <td>Ganesh</td>
+                <td>Vanavasi</td>
+            </tr>
+            
+            <tr>
+                <td>Vishnu</td>
+                <td>Near by sona</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul class="unorder">
+        Programming Languages
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li id="single">R Programming</li>
+    </ul>  
+    <i>Thank You</i>
+</body>
+</html>
