@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array-Basic</title>
+</head>
+<body>
+    <script>
+         var FirstProcess=["Mathan",'a'];//first array execution
+         let SecondProcess=new Array();
+         SecondProcess.push("Manojkumar");
+         SecondProcess.push('1');
+         SecondProcess.push(true);
+         SecondProcess.push(4.5);
+         SecondProcess.push(8765445654765);
+
+        // SecondProcess.pop();
+        //  function print(datas)
+        //  {
+        //     console.log(datas)
+        // }
+        // SecondProcess.map(print)
+
+         document.write(SecondProcess+"<br>")
+
+        //  for(i=0;i<SecondProcess.length;i++)
+        //  {
+        //     alert(SecondProcess[i]);
+        //  }
+
+        var runtime=prompt("Tell us which position you want delete")
+        SecondProcess=SecondProcess.filter((data,pos)=>
+        {
+            return data!==SecondProcess[runtime]// 5 value !== 1
+        })
+
+        SecondProcess.map((data)=>
+        {
+            document.write(data+"<br>")
+        })
+    </script>
+    
+</body>
+</html>
