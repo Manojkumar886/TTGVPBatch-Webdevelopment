@@ -33,3 +33,17 @@ var deleting=()=>
         return data!==temp;
     })
 }
+
+var searching=()=>
+{
+    let temp=document.getElementById('users').value;
+    for(let index=0;index<studentvalues.length;index++)
+    {     
+        if(studentvalues[index]===temp)
+        {
+            return index;
+        }
+    }
+    
+   
+}
