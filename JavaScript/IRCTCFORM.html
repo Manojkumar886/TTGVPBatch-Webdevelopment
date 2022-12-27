@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC FORM</title>
+    <script src="./IRCTCValidation.js"></script>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2 align="center">IRCTC ADDRESS DETAILS</h2>
+    <form name="irctc" onsubmit="return Action()" action="#" >
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td><input type="text" name="fno" placeholder="Flat/DoorNo/Location" />
+                        <br><span id="fdetails"></span></td>
+                    <td><input type="text" name="Svalue" placeholder="StreetName" />
+                        <br><span id="sdetails"></span></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="state" placeholder="StateName" />
+                        <br><span id="stdetails"></span></td>
+                    <td><input type="number" name="pin" placeholder="Pin Number" />
+                        <br><span id="sdetails"></span></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Register" /></td>
+                    <td><input type="reset" value="Cancel" /></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </form>
+    
+</body>
+</html>
