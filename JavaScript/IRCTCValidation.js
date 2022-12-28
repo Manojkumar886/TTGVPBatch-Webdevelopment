@@ -4,8 +4,20 @@ let Action=()=>
     let b=document.forms['irctc'].Svalue.value;
     let c=document.forms['irctc'].pin.value;
     let d=document.forms['irctc'].email1.value;
+    let e=document.forms['irctc'].pass.value;
 
     let active=true;
+    if(e.length<=0)
+    {
+        document.getElementById('passing').innerHTML="Password should't empty";
+        active=false;
+    }
+    else if(!((/^[a-zA-Z0-9!@#$%^&*]{6,16}$/).test(e)))
+    {
+        document.getElementById('passing').innerHTML="Password using special charcter and min6 max16 limits";
+        active=false;   
+    }
+
     if(d.length<=0)
     {
         document.getElementById('edetails').innerHTML="Email id should't empty";
@@ -27,7 +39,7 @@ let Action=()=>
         document.getElementById('sdetails').innerHTML="Street name should't empty";
         active=false;   
     }
-    else if(!(/^[A-Za-z]+$/).test(b))
+    else if(!(/^[A-Za-z\s]+$/).test(b))
     {
         document.getElementById('sdetails').innerHTML="Street name should't use numerical numbers";
         active=false; 
