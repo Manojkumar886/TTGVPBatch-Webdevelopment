@@ -33,6 +33,11 @@ let Action=()=>
         document.getElementById('fdetails').innerHTML="Flat input should't empty";
         active=false;
     }
+    else if(!((/^[#.0-9a-zA-Z\s,-/]+$/).test(a)))
+    {
+        document.getElementById('fdetails').innerHTML="first flat no/ address/doorno";
+        active=false;
+    }
 
     if(b.length<=0)
     {
