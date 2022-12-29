@@ -1,0 +1,103 @@
+JavaScript is one of the 3 languages all web developers must learn:
+
+   1. HTML to define the content of web pages
+
+   2. CSS to specify the layout of web pages
+
+   3. JavaScript to program the behavior of web pages
+
+Java Script
+-------------
+--->Java script is used by programmers across the world to create a 
+      dynamic and interactive web content like browsers and applications.
+--->Easy to implement into standard html code...
+--->Data Types are number,string,boolean,object,function
+
+JavaScript display possibilities
+-------------------------------------
+* alert()				-The alert() method displays an alert box with a message and an OK button.
+					 The alert() method is used when you want information to come through to the user.
+
+* document.write()	-The write() method writes directly to an open (HTML) document stream.
+					  writeln() adds a newline character after each statement. write() does not.
+					  The writeln() method is identical to the write() method, with the addition of writing a newline character
+					  (U+000A) after each statement.
+
+* console.log			-The console. log() is a function in JavaScript that is used to print any kind of variables defined befor e in 
+					  it or to just print any message that needs to be displayed to the user
+
+JavaScript Keywords
+-------------------------
+	Javascript users can declare a variable using 3 keywords.that are let,var,const.
+
+Var				-	The var keyword is used in all JavaScript code from 1995 to 2015.
+					If you want your code to run in older browsers, you must use var.
+
+Let and Const 	-	The let and const keywords were added to JavaScript in 2015.
+
+Const 			-  	Always declare a variable with const when you know that the value should not be changed.
+
+Functions
+------------
+A js functions is a block of code designed to perform a particukar task.(function and fat arrow function)
+fat arrow function 	-Arrow functions allow us to use the fat arrow => operator to quickly define JavaScript functions, with or without parameters.
+1)	function fucntionname()								2)   keyword functioname=()=>
+	{														{
+	//statement													//statment
+	}														}
+
+
+InnerHtml
+------------
+	the innerhtml property sets or return the html content of an element[innerhtml].
+	<button type="button" onclick="document.getelementbyid('process').innerhtml=Date()"</button>
+	<p id="process"></p>
+
+Array in JavaScript
+-----------------------
+*array is a special variable ,which can hold the more than one value.
+*Dynamic storage and fast,Secure.
+*using an array litreally is easiest way to cretae an java script[two]
+	keyword variablename=squarebrackets[];==>let points=[23,54,34,23,45,45];
+	keyword variablename=new Array();==>const points=new Array(assigned values);
+	ARRAY CRUDL METHODS
+	------------------------------------
+	Push()	- In this method adds a new element to an array(at the end point)
+	Pop()	- The pop() method removes a last element from an array
+	length()	- The length property provides an easy way to guess a list of element
+	filter()	- the method create a new array filled with element that is pass a test provided by functions
+			   [update,delete a prticular index]
+	map()	- the map() method is creates a new array from calling a function for every array element
+
+
+REGULAR EXPRESSION
+---------------------------------
+-->it is a sequance of charcter that forms a search patterns.
+-->the search pattern can be usedfor text searcg and text replace operations is called regular expressions.
+RegExp Object
+A regular expression is a pattern of characters.
+kThe pattern is used to do pattern-matching "search-and-replace" functions on text.
+
+Patterns matching process- TEST-test()	Tests for a match in a string. Returns true or false
+	
+Expression	Description
+[abc]		Find any character between the brackets A-Z
+[ 	 	]		Find any character NOT between the brackets
+[0-9]		Find any character between the brackets (any digit)
+[^0-9]		Find any character NOT between the brackets (any non-digit)
+(x|y)			Find any of the alternatives specified
+
+Quantifiers-
+[min,max] 	- minimun to maximum
+[min, .]		-minimun count maximum unlimited
+char	 *		-either or condition
+char +		-atleast one
+$/			-$ means "Match the end of the string" (the position after the last character in the string).
+^			-^ matches the starting of the sentence.
+@			-@ matches itself.
+
+Basic Validation 			− 	First of all, the form must be checked to make sure all the mandatory fields are filled in. 
+							It would require just a loop through each field in the form and check for data.
+
+Data Format Validation 	− 	Secondly, the data that is entered must be checked for correct form and value. 
+						Your code must include appropriate logic to test correctness of data

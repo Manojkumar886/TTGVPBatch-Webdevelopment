@@ -1,0 +1,55 @@
+HTML:
+_____
+Hyper text markup Languages,used to create and display pages on the web.
+HTML is text formatting languages,
+
+Structures:
+___________
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+ 
+
+Elements:
+________
+whatever written with in a html tags are html ELEMENTS.....
+
+Tag:
+____
+HTML tag start with<h1>,end with</h1>(opening tag and closing tag)
+
+Attributes:
+___________
+Html attributes are used to describe the charcteristic of an html element in detail.
+it generallly provides additional styeling to the element.
+<p aligh="center">Welcome all</P>
+
+Empty Tags:
+_____________________
+There are some HTML tags do npt  need to be closed.thare are <br>,<hr>,<img>,<link>,<input>,<source>
+
+MARQUEE TAG  - It is used put one the scrolling text ot pictures on the wep pages.
+____________
+
+TAGS TYPES:
+__________
+
+1.Meta Tags		 - <meta>,<title>,<head>
+2.Form Tags		 - <Form>,<input>,<label>,<textarea>,<select>,<option>,<button>- attributes are type,name,id,class,value...
+3.List Tags		 - <ol>,<ul>,<li> - attributes are type,start
+4.Table Tags	 -<table>,<thead>,<tbody>,<td>,<th>,<tr> - attributes are cellspacing,cellpadding,bgcolor-html5 not supported some tags
+5.Headline Tags	 - <h1> to <h6>
+6.Frame Tags	 - <iframe>-suppported in html5,{<noframe><frameset>-its not suppport in HTML5}
+7.audio/video tags - <audio>,<video>,<source> -attributes are controls,muted,autoplay....etc
+8.link tags  	 - <link>,<a>,<nav>
+9.styly/semantics  - <style>,<div>,<span>
+10.Normal Tags 	 - <p>,<u>,<i>,<b>............

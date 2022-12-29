@@ -1,0 +1,111 @@
+BOOTSTRAP
+-------------------
+	It is free and open source front-end framework used to create a web sites and web apps.[we need four links used inside a head section]
+the world’s most popular framework.Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and 
+JavaScript framework for creating responsive, mobile-first websites.Bootstrap 5 is completely free to download and use....!
+
+COLORS
+-------------
+Bootstrap is supported by an extensive color system that themes our styles and components
+PRIMARY-lightdark blue,			INFO-skyblue,			DANGER-red,		WARNING-light yellow,			
+SECONDARY-gray,				SUCCESS-green,		DARK-black,		LIGHT-white
+
+BG-background color		-	<p class="bg-primary">Welcome ALL</p>
+TEXT-center,end,start			-	<p class="bg-primary text-center text-light">Welcome ALL</p>
+Transform text in components with text capitalization classes[uppercase,lowercase,captilize]
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">CapiTaliZed text.</p>
+
+FONT_SIZE
+----------------
+Font-Size(fs)			-fs-1,2,3,4,5,6
+Font-weight(fw)		-bold,bolder,light,lighter,normal
+Font-Style(fst)		-itlic,normals
+Line-Height(lh)		-sm,base,lg,1
+
+BREAKPOINTS
+----------------------
+Breakpoints are the building blocks of responsive design. Use them to control when your layout can be adapted at a particular viewport or device size.
+lg-large		sm-small		md-medium    	xl-extralarge 		xxl-extra extra large
+
+CONTAINERS
+--------------------
+Containers are the most basic layout element in Bootstrap and are required when using our default grid system
+Container 			- have using particular starting point and ending point is empty spaces is allocated....
+Container-fluid		- have using 1cm empty spaces  is allocated-  starting point and ending point ....
+
+
+FLEX
+--------
+
+Apply display utilities to create a flexbox container and transform direct children elements into flex items.
+d-flex 		-<div class="d-flex p-2 bd-highlight">I'm a flexbox container!</div>
+d-linline-flex	-<div class="d-inline-flex p-2 bd-highlight">I'm an inline flexbox container!</div>(lg-sm-md,xl,xxl)
+
+1.Direction
+	flex-row 			-to set a horizontal direction (the browser default), 
+	flex-row-reverse 	-to start the horizontal direction from the opposite side.
+	flex-column 		-to set a vertical direction
+	flex-column-reverse 	-to start the vertical direction from the opposite side.
+
+2.Justify
+	Use justify-content utilities on flexbox containers to change the alignment of flex items on the main axis (the x-axis to start, y-axis if flex-direction: column).
+	Choose from start (browser default), end, center, between, around, or evenly.
+	
+3.Align-Items
+	Use align-items utilities on flexbox containers to change the alignment of flex items on the cross axis (the y-axis to start, x-axis if flex-direction: column). 
+	Choose from start, end, center, baseline, or stretch (browser default).
+
+4.Align-self
+	Use align-self utilities on flexbox items to individually change their alignment on the cross axis (the y-axis to start, x-axis if flex-direction: column). 
+	Choose from the same options as align-items: start, end, center, baseline, or stretch (browser default)
+
+5.Align-content
+	Use align-content utilities on flexbox containers to align flex items together on the cross axis. 
+	Choose from start (browser default), end, center, between, around, or stretch. 
+
+BASIC
+---------
+mb-marginbottom	mt-margin top 		ms-marginstart	me-marginend 	mx-margin right/left		my-margin top/bottom
+
+order-3,2,1
+
+shadow,shadow-sm,shadow-lg
+
+border border-1,2,3,4,5
+
+border-start,end,top,bottom (border-start-0)
+
+CARDS
+----------
+card -card-body,card-title,card-subtitle,card-img,float-starrt/end/center
+
+FORMS
+----------
+Form -  	FORM-CONTROL	FORM-GROUP	FORM-LABEL 	(form-check)FORM-CHECK-INPUT	FORM-SELECT 	FORM-TEXT
+		FORM-SWITCH(Attributes Are disabled,disabled readonly,readonly,multiple-type(file)
+		datalist tag
+
+LIST
+------
+input-group
+list-group-item
+list-inline
+list-inline-item
+
+
+CAROUSEL
+----------------
+1.Carousel slide
+2.carousel inner
+3.carousel items (img-1)(img-2)(img-3)
+4.data-ride="carousel"----->carousel slide division
+5.any one image is active attributes is used...
+6. 2-button (type=button) data-bs-target="#"
+
+
+NAVBAR
+-------------
+navbar>navbar-brand>navbar-collapse>navbar-nav>navbar-item>navbar-link(only one is active)>2>
+navbar-toggler(inside button -span using class is  navbar-toggler-icon>bbutton  (class="navbar-toggler" data-bs-target="#mynavbar" data-bs-toggle="collapse")

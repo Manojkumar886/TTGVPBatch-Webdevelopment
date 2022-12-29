@@ -1,0 +1,61 @@
+CSS	
+------
+CSS stands for Cascading Style Sheet.CSS is a modern, responsive, mobile first CSS framework.CSS is the language we use to style a Web page.
+CSS is standard CSS only (No jQuery or JavaScript library).CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files.[inline,internal,external]
+
+SELECTORS
+-----------------
+1.	Element Selector - The element selector selects HTML elements based on the element name.
+2.	Id Selector 	  - The id selector uses the id attribute of an HTML element to select a specific element.
+				    To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+3.	Class Selector 	  - The class selector selects HTML elements with a specific class attribute.
+				    To select elements with a specific class, write a period (.) character, followed by the class name.
+4.	UniversalSelector-The universal selector (*) selects all HTML elements on the page.
+5.	Group Selector    -The grouping selector selects all the HTML elements with the same style definitions.(the h1, h2, and p elements have the same style definitions)
+
+TEXT
+--------
+Color		- 	a color name - like "red" , a HEX value - like "#ff0000", an RGB value - like "rgb(255,0,0)"
+Text-align 	- 	center,left,right
+Text-Tranform 	- 	uppercase,lowercase,Captilize
+Text-decoration - 	underline,overline,line-through
+Text-Shadow  	-	Triple side Size need(you only specify the horizontal shadow (2px) and the vertical shadow (2px),add a blur effect (5px):
+
+BORDER
+------------
+Border-width 	- 	The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:
+Border-Style	- 	dotted,groove,solid,inset outset,ridge,double,hidden
+Border-color 	- 	all colors are available
+Border- Radius - 	property is used to add rounded borders to an element:
+
+FONT
+---------
+Font-Size		- 	large,small,
+Font-Family	- 	Font	Design
+Font-Style 	- 	Italic
+Font-varient 	-	small caps
+
+BOX-MODEL
+----------------
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+ Margin		-	CSS has properties for specifying the margin for each side of an element:(top,bottom,left,,right)
+ box-shadow: 	-	10px 5px 10px aqua;
+ padding: 		- 	top,bottom,right,left
+ word-spacing 	- 	10px;
+ letter-spacing	-	 5px;
+ button 		-	cursor(attributes)
+
+BACKGROUND
+----------------------
+Backgrount-Image 	- 	url("")
+background-image	- 	linear-gradient(red,rgb(34, 255, 0));
+Background-Position - 	Image Position will be executed (top,bottom,left,right,54% 76%,bottom 90%)
+Background-repeat	- 	(no repeat)
+Backgrount-Size 	- 	auto,contain, 300px 100px
+Background-blend-mode - this is picture is different varient process of display
+
+
